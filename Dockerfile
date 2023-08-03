@@ -6,7 +6,7 @@ WORKDIR  /
 
 RUN mkdir ovitmp && \
     cd ovitmp && \
-    curl https://ufpr.dl.sourceforge.net/project/dcm4che/Oviyam/2.8/Oviyam-2.8-bin.zip > oviyam.zip && \
+    curl https://drive.usercontent.google.com/download?id=1vMKfxo_Vy2UdRqjNlW1Bk6Dw6Mytamnq&export=download&authuser=0&confirm=t&uuid=70783fb6-f5c4-405e-9f8d-d3979d27fd1e&at=AC2mKKRc0CME5ejYWIIbfFnecdAV:1691071106408 > oviyam.zip && \
         unzip oviyam.zip
         
 RUN rm -R /usr/local/tomcat/webapps/ROOT/
